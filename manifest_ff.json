@@ -1,5 +1,5 @@
 {
-	"name": "Beyond 20",
+	"name": "Beyond 20 + dice.osbert.me",
 	"version": "2.4.5",
 	"manifest_version": 2,
 	"description": "Integrates the D&D Beyond Character Sheets with Roll20 and Foundry VTT.",
@@ -16,7 +16,7 @@
 	],
 	"browser_specific_settings": {
 		"gecko": {
-			"id": "beyond20@kakaroto.homelinux.net"
+			"id": "team_beyond20_dice@mousetrapped.co.uk"
 		}
 	},
 	"icons": {
