@@ -11,7 +11,8 @@
 		"*://app.roll20.net/editor/",
 		"*://*.dndbeyond.com/*",
 		"*://*/*game",
-		"*://*.astraltabletop.com/play/*"
+		"*://*.astraltabletop.com/play/*",
+		"*://dice.osbert.me/room/*"
 	],
 	"browser_specific_settings": {
 		"gecko": {
@@ -47,6 +48,7 @@
 		"dist/roll20_script.js",
 		"dist/fvtt_script.js",
 		"dist/astral_script.js",
+		"dist/fvtt_script.js",
 		"popup.html",
 		"options.html"
 	],
@@ -193,6 +195,21 @@
 				"libs/alertify.min.js",
 				"libs/jquery-3.4.1.min.js",
 				"dist/roll20.js"
+			]
+		},
+		{
+			"matches": [
+				"*://dice.osbert.me/room/*"
+			],
+			"css": [
+				"libs/css/alertify.css",
+				"libs/css/alertify-themes/default.css",
+				"libs/css/alertify-themes/beyond20.css"
+			],
+			"js": [
+				"libs/alertify.min.js",
+				"libs/jquery-3.4.1.min.js",
+				"dist/dice.js"
 			]
 		},
 		{

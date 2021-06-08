@@ -72,6 +72,10 @@ const SRC_FILES = {
         "src/roll20/page-script.js",
         "src/common/sandbox-footer.js"
     ],
+    dice: [
+        ...ROLL_RENDERER_DEPS,
+        "src/dice/content-script.js"
+    ],
     fvtt_test: [
         "src/fvtt/check-tab.js"
     ],

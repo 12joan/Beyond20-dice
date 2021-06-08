@@ -1,4 +1,5 @@
 ROLL20_URL = "*://app.roll20.net/editor/";
+DICE_URL = "*://dice.osbert.me/room/*";
 FVTT_URL = "*://*/game";
 ASTRAL_URL =  "*://*.astraltabletop.com/play/*";
 DNDBEYOND_CHARACTER_URL = "*://*.dndbeyond.com/*characters/*";
